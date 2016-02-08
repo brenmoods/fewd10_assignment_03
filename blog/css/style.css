@@ -1,0 +1,379 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,300italic,400italic,600,600italic,700,700italic,800italic>);
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+body{
+	/* width: 1200px; Make fixed width*/ 
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	background: #033048;
+	height: auto;
+}
+
+main {
+	background: #f0efef;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+}
+
+footer {
+	clear: both;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+  	background: #121212;
+}
+
+aside {
+
+}
+
+section {
+	clear: both;
+}
+
+h1{
+	font-size: 2.25em;
+}
+
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	color: #033048;
+	font-size: 2.5em;
+	line-height: 1.2;
+}
+
+h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #033048;
+	font-size: 2em;
+	line-height: 1.5;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #033048;
+	font-size: 1.75em;
+	line-height: 1.5;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	text-align: left;
+	color: #606161;
+	font-size: 1.5em;
+	line-height: 1.5;
+	list-style-type: none;
+	display: block;
+}
+
+nav {
+	color: #f8e32f;
+	text-align: right;
+	padding-top: .625em;
+	height: 122px;
+}
+
+nav li {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	color: #053149;
+	font-size: 1.5em;
+	line-height: .8;
+	padding: 2%;
+	list-style-type: none;
+	display: inline;
+}
+
+nav ul {
+	padding-top: 42px;
+	margin-left: 0;
+	margin-right: 80px;
+}
+
+.nav-container {
+	margin: 0 auto;
+}
+
+.article-container {
+	background: #efefee;
+	max-width: 70%;
+	float: left;
+	padding-top: 36px;
+	padding-left:  10%;
+	clear: both;
+	word-wrap: break-word
+}
+
+.article-setup {
+	padding-top: 50px;
+	border-bottom: 1px solid #053149;
+}
+
+.articleimage {
+	float: left;
+	width: 700px; 
+	display: block;
+    width: auto; 
+    max-width: 100%;
+    padding: 32px 0 38px 0;
+}
+
+.asideimage {
+	float: left;
+	width: 240px; 
+	display: block;
+    width: auto; 
+    max-width: 100%;
+    padding: 32px 0 38px 0;
+}
+
+header .logo {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	background: #043049;
+	color: #ffffff;
+	font-size: 2.25em;
+	line-height: 1;
+	padding-top: 40px;
+	padding-left:  10%;
+	padding-right:  5%;
+	float: left;
+}
+
+footer .logo {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #f9e42e;
+	background: none;
+	font-size: 2.25em;
+	line-height: 1;
+	padding: 72px 0 68px 0;
+	text-align: center;
+}
+
+p.firstchara:first-letter {
+    float: left;
+    color: #606161;
+    font-size: 4em;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+.learnmore-link {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	color: #033048;
+	text-align: left;
+	font-size: 1.375em;
+	padding: 0 0 0 0;
+	display: block;
+}
+
+.aboutcopy {
+	font-size: 1.375em;
+	font-weight: 300;
+	line-height: 1;
+	color: #033048;
+}
+
+.column-two {
+	width: 26%;
+	background: #efefee;
+	float: left;
+	margin: 0 auto;
+	display: block;
+	padding: 86px 50px 0 20px;
+	word-wrap: break-word;
+	position: static;
+}
+
+.ad-box {
+}
+
+.subnav {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 1.5;
+	display: block;
+	text-decoration: none;
+}
+
+.readmore-link {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	color: #033048;
+	text-align: right;
+	padding: 66px 0 40px 0;
+	font-size: 1.5em;
+	line-height: 1.5;
+	display: block;
+}
+
+.signupbkg {
+  background: #f9e42e;
+}
+
+.signup {
+	padding: 30px;
+	width: 100%;
+}
+
+.signbutton {
+  font-size: 1.375em;
+  display: block;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+}
+
+section .signbutton02 {
+  background: #033048;
+  text-decoration: none;
+  border: 1px solid #606161;
+  height: 62px;
+  width: 304px;
+}
+
+footer > a > img {
+  display: inline;
+  max-width:230px;
+  max-height:100px;
+  width: auto;
+  padding: 0 10px 0 10px;
+}
+
+.small {
+  color: #ffffff;
+  text-align: center;
+  font-size: .875em;
+  font-style: 600;
+  padding-top: 82px;
+  padding-bottom: 42px
+}
+
+
+a.subnav:link {
+    color: #033048;
+    text-decoration: none;
+}
+a.subnav:visited {
+    color: #033048;
+    text-decoration: none;
+}
+a.subnav:hover {
+    color: #606161;
+    text-decoration: none;
+}
+a.subnav:active {
+    color: #606161;
+    text-decoration: none;
+}
+
+a.learnmore-link:link {
+    color: #033048;
+    text-decoration: none;
+}
+a.learnmore-link:visited {
+    color: #033048;
+    text-decoration: none;
+}
+a.learnmore-link:hover {
+    color: #606161;
+    text-decoration: none;
+}
+a.learnmore-link:active {
+    color: #606161;
+    text-decoration: none;
+}
+
+a.readmore-link:link {
+    color: #033048;
+    text-decoration: none;
+}
+a.readmore-link:visited {
+    color: #033048;
+    text-decoration: none;
+}
+a.readmore-link:hover {
+    color: #606161;
+    text-decoration: none;
+}
+a.readmore-link:active {
+    color: #606161;
+    text-decoration: none;
+}
+
+a.signbutton:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.signbutton:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.signbutton:hover {
+    color: #f9e42e;
+    text-decoration: none;
+}
+
+a:link {
+    color: #f9e42e;
+    text-decoration: none;
+}
+a:visited {
+    color: #fae52b;
+    text-decoration: none;
+}
+a:hover {
+    color: #faf6d7;
+    text-decoration: none;
+}
+a:active {
+    color: #faf6d7;
+    text-decoration: none;
+}
